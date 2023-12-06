@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Facultad\\5-Profesorado\\2023 - DIV C\\2C\\Proyectos\\Parciales\\SP_05122023_ALUMNO\\MisTest\\MisTest.csproj": {}
+    "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\2023RSP\\SP_07122023_FALCONE_ALEJO\\MisTest\\MisTest.csproj": {}
   },
   "projects": {
-    "E:\\Facultad\\5-Profesorado\\2023 - DIV C\\2C\\Proyectos\\Parciales\\SP_05122023_ALUMNO\\Entidades\\Entidades.csproj": {
+    "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\2023RSP\\SP_07122023_FALCONE_ALEJO\\Entidades\\Entidades.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Facultad\\5-Profesorado\\2023 - DIV C\\2C\\Proyectos\\Parciales\\SP_05122023_ALUMNO\\Entidades\\Entidades.csproj",
+        "projectUniqueName": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\2023RSP\\SP_07122023_FALCONE_ALEJO\\Entidades\\Entidades.csproj",
         "projectName": "Entidades",
-        "projectPath": "E:\\Facultad\\5-Profesorado\\2023 - DIV C\\2C\\Proyectos\\Parciales\\SP_05122023_ALUMNO\\Entidades\\Entidades.csproj",
-        "packagesPath": "C:\\Users\\aleja\\.nuget\\packages\\",
-        "outputPath": "E:\\Facultad\\5-Profesorado\\2023 - DIV C\\2C\\Proyectos\\Parciales\\SP_05122023_ALUMNO\\Entidades\\obj\\",
+        "projectPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\2023RSP\\SP_07122023_FALCONE_ALEJO\\Entidades\\Entidades.csproj",
+        "packagesPath": "C:\\Users\\aleef\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\2023RSP\\SP_07122023_FALCONE_ALEJO\\Entidades\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\aleja\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\aleef\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -69,21 +65,17 @@
         }
       }
     },
-    "E:\\Facultad\\5-Profesorado\\2023 - DIV C\\2C\\Proyectos\\Parciales\\SP_05122023_ALUMNO\\MisTest\\MisTest.csproj": {
+    "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\2023RSP\\SP_07122023_FALCONE_ALEJO\\MisTest\\MisTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Facultad\\5-Profesorado\\2023 - DIV C\\2C\\Proyectos\\Parciales\\SP_05122023_ALUMNO\\MisTest\\MisTest.csproj",
+        "projectUniqueName": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\2023RSP\\SP_07122023_FALCONE_ALEJO\\MisTest\\MisTest.csproj",
         "projectName": "MisTest",
-        "projectPath": "E:\\Facultad\\5-Profesorado\\2023 - DIV C\\2C\\Proyectos\\Parciales\\SP_05122023_ALUMNO\\MisTest\\MisTest.csproj",
-        "packagesPath": "C:\\Users\\aleja\\.nuget\\packages\\",
-        "outputPath": "E:\\Facultad\\5-Profesorado\\2023 - DIV C\\2C\\Proyectos\\Parciales\\SP_05122023_ALUMNO\\MisTest\\obj\\",
+        "projectPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\2023RSP\\SP_07122023_FALCONE_ALEJO\\MisTest\\MisTest.csproj",
+        "packagesPath": "C:\\Users\\aleef\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\2023RSP\\SP_07122023_FALCONE_ALEJO\\MisTest\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "d:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\aleja\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\aleef\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -97,8 +89,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Facultad\\5-Profesorado\\2023 - DIV C\\2C\\Proyectos\\Parciales\\SP_05122023_ALUMNO\\Entidades\\Entidades.csproj": {
-                "projectPath": "E:\\Facultad\\5-Profesorado\\2023 - DIV C\\2C\\Proyectos\\Parciales\\SP_05122023_ALUMNO\\Entidades\\Entidades.csproj"
+              "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\2023RSP\\SP_07122023_FALCONE_ALEJO\\Entidades\\Entidades.csproj": {
+                "projectPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\2023RSP\\SP_07122023_FALCONE_ALEJO\\Entidades\\Entidades.csproj"
               }
             }
           }

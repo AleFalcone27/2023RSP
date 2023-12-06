@@ -10,3 +10,9 @@ E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_2206202
 E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\Entidades\obj\Debug\net6.0\refint\Entidades.dll
 E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\Entidades\obj\Debug\net6.0\Entidades.pdb
 E:\Facultad\5-Profesorado\2023 - DIV C\Proyectos C#\Parciales\SP_LABO\SP_22062023_ALUMNO\Entidades\obj\Debug\net6.0\ref\Entidades.dll
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\2023RSP\SP_07122023_FALCONE_ALEJO\Entidades\obj\Debug\net6.0\Entidades.csproj.AssemblyReference.cache
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\2023RSP\SP_07122023_FALCONE_ALEJO\Entidades\obj\Debug\net6.0\Entidades.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\2023RSP\SP_07122023_FALCONE_ALEJO\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfoInputs.cache
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\2023RSP\SP_07122023_FALCONE_ALEJO\Entidades\obj\Debug\net6.0\Entidades.AssemblyInfo.cs
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\2023RSP\SP_07122023_FALCONE_ALEJO\Entidades\obj\Debug\net6.0\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\2023RSP\SP_07122023_FALCONE_ALEJO\Entidades\obj\Debug\net6.0\Entidades.sourcelink.json

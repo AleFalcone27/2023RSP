@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Entidades.Excepciones
 {
-    public class ComidaInvalidaExeption
+    public class ComidaInvalidaExeption : Exception
     {
-
+        public ComidaInvalidaExeption(string message):base(message) { }    
     }
 }

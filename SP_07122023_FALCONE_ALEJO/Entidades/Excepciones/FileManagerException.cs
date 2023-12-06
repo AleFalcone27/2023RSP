@@ -6,8 +6,10 @@ using System.Threading.Tasks;
 
 namespace Entidades.Exceptions
 {
-    public class FileManagerException 
+    public class FileManagerException : Exception
     {
+        public FileManagerException(string message) { }
 
+        public FileManagerException(string message, Exception innerException) : base(message, innerException) { }
     }
 }

@@ -1,9 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\Entidades",
-    "\\Entidades\\Archivos"
+    "\\Entidades\\Excepciones",
+    "\\Entidades\\Interfaces"
   ],
-  "SelectedNode": "\\Entidades\\Interfaces",
+  "SelectedNode": "\\FrmView",
   "PreviewInSolutionExplorer": false
 }

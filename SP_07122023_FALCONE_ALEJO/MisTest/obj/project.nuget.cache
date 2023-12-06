@@ -1,0 +1,249 @@
+{
+  "version": 2,
+  "dgSpecHash": "3QTmbEbJT2ese+hS52n+ZiD8/zboqhp3lpVplguGn2aQLFlIL15dyVaUxb3nSjjgwRrjKd4W6XWRsKqJ1kFSLA==",
+  "success": false,
+  "projectFilePath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\2023RSP\\SP_07122023_FALCONE_ALEJO\\MisTest\\MisTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\aleef\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
+    "C:\\Users\\aleef\\.nuget\\packages\\microsoft.codecoverage\\17.1.0\\microsoft.codecoverage.17.1.0.nupkg.sha512",
+    "C:\\Users\\aleef\\.nuget\\packages\\microsoft.csharp\\4.0.1\\microsoft.csharp.4.0.1.nupkg.sha512",
+    "C:\\Users\\aleef\\.nuget\\packages\\microsoft.net.test.sdk\\17.1.0\\microsoft.net.test.sdk.17.1.0.nupkg.sha512",
+    "C:\\Users\\aleef\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\aleef\\.nuget\\packages\\microsoft.netcore.targets\\1.0.1\\microsoft.netcore.targets.1.0.1.nupkg.sha512",
+    "C:\\Users\\aleef\\.nuget\\packages\\microsoft.testplatform.objectmodel\\17.1.0\\microsoft.testplatform.objectmodel.17.1.0.nupkg.sha512",
+    "C:\\Users\\aleef\\.nuget\\packages\\microsoft.testplatform.testhost\\17.1.0\\microsoft.testplatform.testhost.17.1.0.nupkg.sha512",
+    "C:\\Users\\aleef\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
+    "C:\\Users\\aleef\\.nuget\\packages\\mstest.testadapter\\2.2.8\\mstest.testadapter.2.2.8.nupkg.sha512",
+    "C:\\Users\\aleef\\.nuget\\packages\\mstest.testframework\\2.2.8\\mstest.testframework.2.2.8.nupkg.sha512",
+    "C:\\Users\\aleef\\.nuget\\packages\\newtonsoft.json\\9.0.1\\newtonsoft.json.9.0.1.nupkg.sha512",
+    "C:\\Users\\aleef\\.nuget\\packages\\nuget.frameworks\\5.11.0\\nuget.frameworks.5.11.0.nupkg.sha512",
+    "C:\\Users\\aleef\\.nuget\\packages\\runtime.native.system.data.sqlclient.sni\\4.7.0\\runtime.native.system.data.sqlclient.sni.4.7.0.nupkg.sha512",
+    "C:\\Users\\aleef\\.nuget\\packages\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-arm64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\aleef\\.nuget\\packages\\runtime.win-x64.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x64.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\aleef\\.nuget\\packages\\runtime.win-x86.runtime.native.system.data.sqlclient.sni\\4.4.0\\runtime.win-x86.runtime.native.system.data.sqlclient.sni.4.4.0.nupkg.sha512",
+    "C:\\Users\\aleef\\.nuget\\packages\\system.data.sqlclient\\4.8.5\\system.data.sqlclient.4.8.5.nupkg.sha512",
+    "C:\\Users\\aleef\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
+    "C:\\Users\\aleef\\.nuget\\packages\\system.runtime\\4.1.0\\system.runtime.4.1.0.nupkg.sha512",
+    "C:\\Users\\aleef\\.nuget\\packages\\system.security.accesscontrol\\4.7.0\\system.security.accesscontrol.4.7.0.nupkg.sha512",
+    "C:\\Users\\aleef\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
+    "C:\\Users\\aleef\\.nuget\\packages\\system.text.encoding\\4.0.11\\system.text.encoding.4.0.11.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "No se puede resolver 'NETStandard.Library (>= 1.6.1)' para 'net6.0'. PackageSourceMapping está habilitado. No se tuvieron en cuenta los siguientes orígenes: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "NETStandard.Library",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "No se puede resolver 'System.Diagnostics.TextWriterTraceListener (>= 4.3.0)' para 'net6.0'. PackageSourceMapping está habilitado. No se tuvieron en cuenta los siguientes orígenes: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "System.Diagnostics.TextWriterTraceListener",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "No se puede resolver 'System.Collections (>= 4.0.11)' para 'net6.0'. PackageSourceMapping está habilitado. No se tuvieron en cuenta los siguientes orígenes: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "System.Collections",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "No se puede resolver 'System.Diagnostics.Debug (>= 4.0.11)' para 'net6.0'. PackageSourceMapping está habilitado. No se tuvieron en cuenta los siguientes orígenes: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "System.Diagnostics.Debug",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "No se puede resolver 'System.Dynamic.Runtime (>= 4.0.11)' para 'net6.0'. PackageSourceMapping está habilitado. No se tuvieron en cuenta los siguientes orígenes: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "System.Dynamic.Runtime",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "No se puede resolver 'System.Globalization (>= 4.0.11)' para 'net6.0'. PackageSourceMapping está habilitado. No se tuvieron en cuenta los siguientes orígenes: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "System.Globalization",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "No se puede resolver 'System.IO (>= 4.1.0)' para 'net6.0'. PackageSourceMapping está habilitado. No se tuvieron en cuenta los siguientes orígenes: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "System.IO",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "No se puede resolver 'System.Linq (>= 4.1.0)' para 'net6.0'. PackageSourceMapping está habilitado. No se tuvieron en cuenta los siguientes orígenes: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "System.Linq",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "No se puede resolver 'System.Linq.Expressions (>= 4.1.0)' para 'net6.0'. PackageSourceMapping está habilitado. No se tuvieron en cuenta los siguientes orígenes: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "System.Linq.Expressions",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "No se puede resolver 'System.ObjectModel (>= 4.0.12)' para 'net6.0'. PackageSourceMapping está habilitado. No se tuvieron en cuenta los siguientes orígenes: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "System.ObjectModel",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "No se puede resolver 'System.Reflection (>= 4.1.0)' para 'net6.0'. PackageSourceMapping está habilitado. No se tuvieron en cuenta los siguientes orígenes: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "System.Reflection",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "No se puede resolver 'System.Reflection.Extensions (>= 4.0.1)' para 'net6.0'. PackageSourceMapping está habilitado. No se tuvieron en cuenta los siguientes orígenes: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "System.Reflection.Extensions",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "No se puede resolver 'System.Resources.ResourceManager (>= 4.0.1)' para 'net6.0'. PackageSourceMapping está habilitado. No se tuvieron en cuenta los siguientes orígenes: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "System.Resources.ResourceManager",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "No se puede resolver 'System.Runtime.Extensions (>= 4.1.0)' para 'net6.0'. PackageSourceMapping está habilitado. No se tuvieron en cuenta los siguientes orígenes: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "System.Runtime.Extensions",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "No se puede resolver 'System.Runtime.Serialization.Primitives (>= 4.1.1)' para 'net6.0'. PackageSourceMapping está habilitado. No se tuvieron en cuenta los siguientes orígenes: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "System.Runtime.Serialization.Primitives",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "No se puede resolver 'System.Text.Encoding.Extensions (>= 4.0.11)' para 'net6.0'. PackageSourceMapping está habilitado. No se tuvieron en cuenta los siguientes orígenes: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "System.Text.Encoding.Extensions",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "No se puede resolver 'System.Text.RegularExpressions (>= 4.1.0)' para 'net6.0'. PackageSourceMapping está habilitado. No se tuvieron en cuenta los siguientes orígenes: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "System.Text.RegularExpressions",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "No se puede resolver 'System.Threading (>= 4.0.11)' para 'net6.0'. PackageSourceMapping está habilitado. No se tuvieron en cuenta los siguientes orígenes: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "System.Threading",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "No se puede resolver 'System.Threading.Tasks (>= 4.0.11)' para 'net6.0'. PackageSourceMapping está habilitado. No se tuvieron en cuenta los siguientes orígenes: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "System.Threading.Tasks",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "No se puede resolver 'System.Xml.ReaderWriter (>= 4.0.11)' para 'net6.0'. PackageSourceMapping está habilitado. No se tuvieron en cuenta los siguientes orígenes: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "System.Xml.ReaderWriter",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "No se puede resolver 'System.Xml.XDocument (>= 4.0.11)' para 'net6.0'. PackageSourceMapping está habilitado. No se tuvieron en cuenta los siguientes orígenes: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "System.Xml.XDocument",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "No se puede resolver 'System.Reflection.Primitives (>= 4.0.1)' para 'net6.0'. PackageSourceMapping está habilitado. No se tuvieron en cuenta los siguientes orígenes: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "System.Reflection.Primitives",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "No se puede resolver 'System.Reflection.TypeExtensions (>= 4.1.0)' para 'net6.0'. PackageSourceMapping está habilitado. No se tuvieron en cuenta los siguientes orígenes: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "System.Reflection.TypeExtensions",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    },
+    {
+      "code": "NU1100",
+      "level": "Error",
+      "message": "No se puede resolver 'System.Runtime.InteropServices (>= 4.1.0)' para 'net6.0'. PackageSourceMapping está habilitado. No se tuvieron en cuenta los siguientes orígenes: Microsoft Visual Studio Offline Packages, nuget.org.",
+      "libraryId": "System.Runtime.InteropServices",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
