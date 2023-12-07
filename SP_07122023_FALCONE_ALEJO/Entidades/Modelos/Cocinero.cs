@@ -10,6 +10,8 @@ namespace Entidades.Modelos
     public delegate void DelegadoDemoraAtencion(double demora);
     public delegate void DelegadoNuevoIngreso(IComestible menu);
     
+
+
     public class Cocinero<T> where T : IComestible, new()
     {
         private int cantPedidosFinalizados;

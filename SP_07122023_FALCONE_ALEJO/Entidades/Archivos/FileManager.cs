@@ -20,7 +20,7 @@ namespace Entidades.Files
         static FileManager()
         {
             string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-            string parcialFolderName = "+\\20231207_Alumn\\"; 
+            string parcialFolderName = "2023RSP"; 
 
             FileManager.path = Path.Combine(desktopPath, parcialFolderName); 
 
@@ -45,12 +45,12 @@ namespace Entidades.Files
         }
 
 
-        public static void Guardar(string data,string nombreArchivo, bool append = false)
+        public static void Guardar(string data,string nombreArchivo, bool append=true)
         {
             try
             {
                 string filePath = Path.Combine(nombreArchivo, data);
-                using (StreamWriter writer = new StreamWriter(filePath, !append))
+                using (StreamWriter writer = new StreamWriter(filePath, append))
                 {
                     writer.Write(data);
                 }

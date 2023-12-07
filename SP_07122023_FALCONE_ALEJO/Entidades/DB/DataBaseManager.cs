@@ -82,7 +82,7 @@ namespace Entidades.DataBase
             catch (Exception ex)
             {
                 FileManager.Guardar(ex.Message, "logs.txt");
-                throw new DataBaseManagerException("Error al guardar el ticket en la base de datos", ex);
+                throw new DataBaseManagerException("Error al escribir el ticket en la base de datos", ex);
             }
         }
 

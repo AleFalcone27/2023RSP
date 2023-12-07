@@ -8,7 +8,7 @@ using Entidades.DataBase;
 
 namespace Entidades.Modelos
 {
-    public class Hamburguesa 
+    public class Hamburguesa : IComestible
     {
 
         private static int costoBase;
@@ -30,6 +30,9 @@ namespace Entidades.Modelos
 
         public string Ticket => $"{this}\nTotal a pagar:{this.costo}";
 
+        public bool Estado { get { return this.estado; } }
+
+        public string Imagen{ get { return this.imagen; } }
 
         private void AgregarIngredientes()
         {
@@ -62,7 +65,8 @@ namespace Entidades.Modelos
         {
             if (!this.estado)
             {
-                DataBaseManager.GetImagenComida($"Hamburguesa_{this.random.Next(1, 9)}");
+                // chekear esto
+                this.imagen = DataBaseManager.GetImagenComida($"Hamburguesa_{this.random.Next(1, 9)}");
                 AgregarIngredientes();
             }
 

@@ -475,11 +475,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\2023RSP\\SP_07122023_FALCONE_ALEJO\\Entidades\\Entidades.csproj",
+      "projectUniqueName": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2023RSP\\SP_07122023_FALCONE_ALEJO\\Entidades\\Entidades.csproj",
       "projectName": "Entidades",
-      "projectPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\2023RSP\\SP_07122023_FALCONE_ALEJO\\Entidades\\Entidades.csproj",
+      "projectPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2023RSP\\SP_07122023_FALCONE_ALEJO\\Entidades\\Entidades.csproj",
       "packagesPath": "C:\\Users\\aleef\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\2023RSP\\SP_07122023_FALCONE_ALEJO\\Entidades\\obj\\",
+      "outputPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2023RSP\\SP_07122023_FALCONE_ALEJO\\Entidades\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aleef\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -529,7 +529,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
       }
     }
   }

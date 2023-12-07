@@ -7,7 +7,6 @@ namespace Entidades.MetodosDeExtension
     {
         public static double CalcularCostoIngrediente(this List<EIngrediente> ingredientes, int costoInicial)
         {
-
             double costoIncrementado = 0;
 
             foreach (EIngrediente item in ingredientes)

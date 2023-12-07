@@ -34,3 +34,30 @@ C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\2023RSP\SP_07122023_FALCONE_ALEJO\
 C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\2023RSP\SP_07122023_FALCONE_ALEJO\FrmView\obj\Debug\net6.0-windows\FrmView.AssemblyInfo.cs
 C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\2023RSP\SP_07122023_FALCONE_ALEJO\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.CoreCompileInputs.cache
 C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\2023RSP\SP_07122023_FALCONE_ALEJO\FrmView\obj\Debug\net6.0-windows\FrmView.sourcelink.json
+C:\Users\aleef\OneDrive\Escritorio\2023RSP\SP_07122023_FALCONE_ALEJO\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.AssemblyReference.cache
+C:\Users\aleef\OneDrive\Escritorio\2023RSP\SP_07122023_FALCONE_ALEJO\FrmView\obj\Debug\net6.0-windows\FrmView.FrmView.resources
+C:\Users\aleef\OneDrive\Escritorio\2023RSP\SP_07122023_FALCONE_ALEJO\FrmView\obj\Debug\net6.0-windows\FrmView.Properties.Resources.resources
+C:\Users\aleef\OneDrive\Escritorio\2023RSP\SP_07122023_FALCONE_ALEJO\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.GenerateResource.cache
+C:\Users\aleef\OneDrive\Escritorio\2023RSP\SP_07122023_FALCONE_ALEJO\FrmView\obj\Debug\net6.0-windows\FrmView.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aleef\OneDrive\Escritorio\2023RSP\SP_07122023_FALCONE_ALEJO\FrmView\obj\Debug\net6.0-windows\FrmView.AssemblyInfoInputs.cache
+C:\Users\aleef\OneDrive\Escritorio\2023RSP\SP_07122023_FALCONE_ALEJO\FrmView\obj\Debug\net6.0-windows\FrmView.AssemblyInfo.cs
+C:\Users\aleef\OneDrive\Escritorio\2023RSP\SP_07122023_FALCONE_ALEJO\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.CoreCompileInputs.cache
+C:\Users\aleef\OneDrive\Escritorio\2023RSP\SP_07122023_FALCONE_ALEJO\FrmView\bin\Debug\net6.0-windows\FrmView.exe
+C:\Users\aleef\OneDrive\Escritorio\2023RSP\SP_07122023_FALCONE_ALEJO\FrmView\bin\Debug\net6.0-windows\FrmView.deps.json
+C:\Users\aleef\OneDrive\Escritorio\2023RSP\SP_07122023_FALCONE_ALEJO\FrmView\bin\Debug\net6.0-windows\FrmView.runtimeconfig.json
+C:\Users\aleef\OneDrive\Escritorio\2023RSP\SP_07122023_FALCONE_ALEJO\FrmView\bin\Debug\net6.0-windows\FrmView.dll
+C:\Users\aleef\OneDrive\Escritorio\2023RSP\SP_07122023_FALCONE_ALEJO\FrmView\bin\Debug\net6.0-windows\FrmView.pdb
+C:\Users\aleef\OneDrive\Escritorio\2023RSP\SP_07122023_FALCONE_ALEJO\FrmView\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\aleef\OneDrive\Escritorio\2023RSP\SP_07122023_FALCONE_ALEJO\FrmView\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\aleef\OneDrive\Escritorio\2023RSP\SP_07122023_FALCONE_ALEJO\FrmView\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\aleef\OneDrive\Escritorio\2023RSP\SP_07122023_FALCONE_ALEJO\FrmView\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\aleef\OneDrive\Escritorio\2023RSP\SP_07122023_FALCONE_ALEJO\FrmView\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\aleef\OneDrive\Escritorio\2023RSP\SP_07122023_FALCONE_ALEJO\FrmView\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\aleef\OneDrive\Escritorio\2023RSP\SP_07122023_FALCONE_ALEJO\FrmView\bin\Debug\net6.0-windows\Entidades.dll
+C:\Users\aleef\OneDrive\Escritorio\2023RSP\SP_07122023_FALCONE_ALEJO\FrmView\bin\Debug\net6.0-windows\Entidades.pdb
+C:\Users\aleef\OneDrive\Escritorio\2023RSP\SP_07122023_FALCONE_ALEJO\FrmView\obj\Debug\net6.0-windows\FrmView.csproj.CopyComplete
+C:\Users\aleef\OneDrive\Escritorio\2023RSP\SP_07122023_FALCONE_ALEJO\FrmView\obj\Debug\net6.0-windows\FrmView.dll
+C:\Users\aleef\OneDrive\Escritorio\2023RSP\SP_07122023_FALCONE_ALEJO\FrmView\obj\Debug\net6.0-windows\refint\FrmView.dll
+C:\Users\aleef\OneDrive\Escritorio\2023RSP\SP_07122023_FALCONE_ALEJO\FrmView\obj\Debug\net6.0-windows\FrmView.pdb
+C:\Users\aleef\OneDrive\Escritorio\2023RSP\SP_07122023_FALCONE_ALEJO\FrmView\obj\Debug\net6.0-windows\FrmView.genruntimeconfig.cache
+C:\Users\aleef\OneDrive\Escritorio\2023RSP\SP_07122023_FALCONE_ALEJO\FrmView\obj\Debug\net6.0-windows\ref\FrmView.dll

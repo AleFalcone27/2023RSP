@@ -26,13 +26,13 @@ namespace FrmView
         //en el formulario los datos de la comida
         private void MostrarComida(IComestible comida)
         {
-
-            this.comidas.Enqueue(comida);
-            this.pcbComida.Load(comida.Imagen);
-            this.rchElaborando.Text = comida.ToString();
-
+            if (!InvokeRequired)
+            {
+                this.comidas.Enqueue(comida);
+                this.pcbComida.Load(comida.Imagen);
+                this.rchElaborando.Text = comida.ToString();
+            }
         }
-
 
 
         //Alumno: Realizar los cambios necesarios sobre MostrarConteo de manera que se refleje
@@ -40,12 +40,11 @@ namespace FrmView
         private void MostrarConteo(double tiempo)
         {
 
-
-            this.lblTiempo.Text = $"{tiempo} segundos";
-            this.lblTmp.Text = $"{this.hamburguesero.TiempoMedioDePreparacion.ToString("00.0")} segundos";
-
-
-
+            if (!InvokeRequired)
+            {
+                this.lblTiempo.Text = $"{tiempo} segundos";
+                this.lblTmp.Text = $"{this.hamburguesero.TiempoMedioDePreparacion.ToString("00.0")} segundos";
+            }
         }
 
         private void ActualizarAtendidos(IComestible comida)
@@ -72,7 +71,6 @@ namespace FrmView
         {
             if (this.comidas.Count > 0)
             {
-
                 IComestible comida = this.comidas.Dequeue();
                 comida.FinalizarPreparacion(this.hamburguesero.Nombre);
                 this.ActualizarAtendidos(comida);
