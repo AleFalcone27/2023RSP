@@ -9,7 +9,7 @@ namespace Entidades.DataBase
     public static class DataBaseManager
     {
         private static SqlConnection connection = new SqlConnection();
-        private static string stringConnection = "Server = COMPLETAR; Database = 20230622SP;Trusted_Connection = True;";
+        private static string stringConnection = "Server = ALE; Database = 20230622SP; Trusted_Connection = True;";
 
         public static string GetImagenComida(string tipo)
         {

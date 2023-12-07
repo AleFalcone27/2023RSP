@@ -11,6 +11,7 @@ namespace FrmView
         private Queue<IComestible> comidas;
         Cocinero<Hamburguesa> hamburguesero;
 
+
         public FrmView()
         {
             InitializeComponent();
@@ -32,6 +33,10 @@ namespace FrmView
                 this.pcbComida.Load(comida.Imagen);
                 this.rchElaborando.Text = comida.ToString();
             }
+            else
+            {
+                this.Invoke(new Action(() => { MostrarComida(comida); }));
+            }
         }
 
 
@@ -44,6 +49,10 @@ namespace FrmView
             {
                 this.lblTiempo.Text = $"{tiempo} segundos";
                 this.lblTmp.Text = $"{this.hamburguesero.TiempoMedioDePreparacion.ToString("00.0")} segundos";
+            }
+            else
+            {
+                this.Invoke(new Action(() => { MostrarConteo(tiempo); }));
             }
         }
 
@@ -64,7 +73,6 @@ namespace FrmView
                 this.hamburguesero.HabilitarCocina = false;
                 this.btnAbrir.Image = Properties.Resources.open_icon;
             }
-
         }
 
         private void btnSiguiente_Click(object sender, EventArgs e)
@@ -79,13 +87,11 @@ namespace FrmView
             {
                 MessageBox.Show("El Cocinero no posee comidas", "Atencion", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
-
         }
 
         private void FrmView_FormClosing(object sender, FormClosingEventArgs e)
         {
-            //Alumno: Serializar el cocinero antes de cerrar el formulario
-
+            FileManager.Serializar<Cocinero<Hamburguesa>>(hamburguesero, "Serializador.txt");
         }
     }
 }

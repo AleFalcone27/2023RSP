@@ -493,11 +493,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2023RSP\\SP_07122023_FALCONE_ALEJO\\FrmView\\FrmView.csproj",
+      "projectUniqueName": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\2023RSP\\SP_07122023_FALCONE_ALEJO\\FrmView\\FrmView.csproj",
       "projectName": "FrmView",
-      "projectPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2023RSP\\SP_07122023_FALCONE_ALEJO\\FrmView\\FrmView.csproj",
+      "projectPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\2023RSP\\SP_07122023_FALCONE_ALEJO\\FrmView\\FrmView.csproj",
       "packagesPath": "C:\\Users\\aleef\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2023RSP\\SP_07122023_FALCONE_ALEJO\\FrmView\\obj\\",
+      "outputPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\2023RSP\\SP_07122023_FALCONE_ALEJO\\FrmView\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\aleef\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -514,8 +514,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\aleef\\OneDrive\\Escritorio\\2023RSP\\SP_07122023_FALCONE_ALEJO\\Entidades\\Entidades.csproj": {
-              "projectPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2023RSP\\SP_07122023_FALCONE_ALEJO\\Entidades\\Entidades.csproj"
+            "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\2023RSP\\SP_07122023_FALCONE_ALEJO\\Entidades\\Entidades.csproj": {
+              "projectPath": "C:\\Users\\aleef\\OneDrive\\Escritorio\\2do Cuatri\\2023RSP\\SP_07122023_FALCONE_ALEJO\\Entidades\\Entidades.csproj"
             }
           }
         }
@@ -548,7 +548,7 @@
             "privateAssets": "none"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

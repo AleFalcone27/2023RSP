@@ -20,7 +20,7 @@ namespace Entidades.Files
         static FileManager()
         {
             string desktopPath = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);
-            string parcialFolderName = "2023RSP"; 
+            string parcialFolderName = "Logs"; 
 
             FileManager.path = Path.Combine(desktopPath, parcialFolderName); 
 

@@ -65,7 +65,6 @@ namespace Entidades.Modelos
         {
             if (!this.estado)
             {
-                // chekear esto
                 this.imagen = DataBaseManager.GetImagenComida($"Hamburguesa_{this.random.Next(1, 9)}");
                 AgregarIngredientes();
             }

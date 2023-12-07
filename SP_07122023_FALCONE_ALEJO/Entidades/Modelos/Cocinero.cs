@@ -11,7 +11,6 @@ namespace Entidades.Modelos
     public delegate void DelegadoNuevoIngreso(IComestible menu);
     
 
-
     public class Cocinero<T> where T : IComestible, new()
     {
         private int cantPedidosFinalizados;
@@ -56,6 +55,7 @@ namespace Entidades.Modelos
         public string Nombre { get => nombre; }
         public int CantPedidosFinalizados { get => cantPedidosFinalizados; }
 
+
         private void IniciarIngreso()
         {
             this.tarea = Task.Run(() => {
@@ -91,7 +91,7 @@ namespace Entidades.Modelos
             {
                 int segundosTranscurridos = 0;
 
-                while (!cancellation.Token.IsCancellationRequested && !menu.Estado)
+                while (!cancellation.IsCancellationRequested && !menu.Estado)
                 {
                     this.OnDemora.Invoke(segundosTranscurridos);
 

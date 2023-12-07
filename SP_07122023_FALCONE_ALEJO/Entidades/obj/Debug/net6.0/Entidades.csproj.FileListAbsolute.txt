@@ -28,3 +28,10 @@ C:\Users\aleef\OneDrive\Escritorio\2023RSP\SP_07122023_FALCONE_ALEJO\Entidades\o
 C:\Users\aleef\OneDrive\Escritorio\2023RSP\SP_07122023_FALCONE_ALEJO\Entidades\obj\Debug\net6.0\refint\Entidades.dll
 C:\Users\aleef\OneDrive\Escritorio\2023RSP\SP_07122023_FALCONE_ALEJO\Entidades\obj\Debug\net6.0\Entidades.pdb
 C:\Users\aleef\OneDrive\Escritorio\2023RSP\SP_07122023_FALCONE_ALEJO\Entidades\obj\Debug\net6.0\ref\Entidades.dll
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\2023RSP\SP_07122023_FALCONE_ALEJO\Entidades\bin\Debug\net6.0\Entidades.deps.json
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\2023RSP\SP_07122023_FALCONE_ALEJO\Entidades\bin\Debug\net6.0\Entidades.dll
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\2023RSP\SP_07122023_FALCONE_ALEJO\Entidades\bin\Debug\net6.0\Entidades.pdb
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\2023RSP\SP_07122023_FALCONE_ALEJO\Entidades\obj\Debug\net6.0\Entidades.dll
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\2023RSP\SP_07122023_FALCONE_ALEJO\Entidades\obj\Debug\net6.0\refint\Entidades.dll
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\2023RSP\SP_07122023_FALCONE_ALEJO\Entidades\obj\Debug\net6.0\Entidades.pdb
+C:\Users\aleef\OneDrive\Escritorio\2do Cuatri\2023RSP\SP_07122023_FALCONE_ALEJO\Entidades\obj\Debug\net6.0\ref\Entidades.dll
