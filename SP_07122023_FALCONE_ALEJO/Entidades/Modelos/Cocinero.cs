@@ -96,7 +96,7 @@ namespace Entidades.Modelos
             {
                 int segundosTranscurridos = 0;
 
-                while (!cancellation.IsCancellationRequested && !menu.Estado)
+                while (!cancellation.IsCancellationRequested && !PedidoEnPrepaacion.Estado)
                 {
                     this.OnDemora.Invoke(segundosTranscurridos);
 
