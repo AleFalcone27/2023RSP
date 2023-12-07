@@ -76,7 +76,7 @@ namespace Entidades.Modelos
 
                 while (!cancellation.IsCancellationRequested)
                 {
-                    if (this.pedidos.Count > 0)
+                    if (OnPedido != null && this.pedidos.Count > 0)
                     {
                         this.PedidoEnPrepaacion = this.pedidos.Dequeue();
 
