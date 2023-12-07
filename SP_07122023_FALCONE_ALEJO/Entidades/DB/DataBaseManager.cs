@@ -11,9 +11,6 @@ namespace Entidades.DataBase
         private static SqlConnection connection = new SqlConnection();
         private static string stringConnection = "Server = COMPLETAR; Database = 20230622SP;Trusted_Connection = True;";
 
-
-
-
         public static string GetImagenComida(string tipo)
         {
             using (SqlConnection connection = new SqlConnection(DataBaseManager.stringConnection))
@@ -23,6 +20,7 @@ namespace Entidades.DataBase
                     string query = "SELECT Imagen FROM comidas WHERE Tipo = @tipo";
                     SqlCommand command = new SqlCommand(query, connection);
                     command.Parameters.AddWithValue("@tipo", tipo);
+
                     connection.Open();
 
                     SqlDataReader reader = command.ExecuteReader();
@@ -63,6 +61,7 @@ namespace Entidades.DataBase
 
             if (string.IsNullOrEmpty(nombreCliente))
             {
+                FileManager.Guardar("La comida no puede ser nula", "logs.txt");
                 throw new ArgumentException("El nombre del cliente no puede estar vacío", nameof(nombreCliente));
             }
 
@@ -82,62 +81,10 @@ namespace Entidades.DataBase
             }
             catch (Exception ex)
             {
-
+                FileManager.Guardar(ex.Message, "logs.txt");
                 throw new DataBaseManagerException("Error al guardar el ticket en la base de datos", ex);
-                // guardar en lgs
-
             }
         }
 
-
-
-
-
-
-
-
-
     }
-
-
-
-    public static bool GetAndInitializeProducts()
-    {
-        using (SqlConnection connection = new SqlConnection(GestorSql.ConnectionString))
-        {
-            try
-            {
-                string query = "SELECT * FROM Productos";
-                SqlCommand command = new SqlCommand(query, connection);
-                connection.Open();
-
-                SqlDataReader reader = command.ExecuteReader();
-
-                if (reader.HasRows)
-                {
-                    while (reader.Read())
-                    {
-                        string nombre = reader.GetString(1);
-                        string? ingredientes = reader.GetString(2);
-                        double precio = reader.GetDouble(3);
-                        string condimentos = reader.GetString(4);
-                        bool vegano = reader.GetBoolean(5);
-
-                        Producto producto = new Producto(nombre, ingredientes, precio, condimentos, vegano);
-
-                        Producto.Productos.Add(producto);
-                    }
-                    return true;
-                }
-            }
-
-            catch (Exception ex)
-            {
-                throw new ErrorDeConexionException("Error de conexión a la Base de datos");
-            }
-        }
-        return false;
-    }
-
-
 }

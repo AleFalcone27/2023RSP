@@ -1,4 +1,5 @@
-﻿using Entidades.Exceptions;
+﻿using Entidades.DataBase;
+using Entidades.Exceptions;
 using Entidades.Files;
 using Entidades.Interfaces;
 
@@ -6,19 +7,19 @@ using Entidades.Interfaces;
 namespace Entidades.Modelos
 {
 
-
-    public class Cocinero
+    public delegate void DelegadoDemoraAtencion(double demora);
+    public delegate void DelegadoNuevoIngreso(IComestible menu);
+    
+    public class Cocinero<T> where T : IComestible, new()
     {
         private int cantPedidosFinalizados;
         private string nombre;
         private double demoraPreparacionTotal;
         private CancellationTokenSource cancellation;
-
         private Task tarea;
-
-
-
-
+        private T menu;
+        public event DelegadoDemoraAtencion OnDemora;
+        public event DelegadoNuevoIngreso OnIngreso;
 
         public Cocinero(string nombre)
         {
@@ -55,20 +56,50 @@ namespace Entidades.Modelos
 
         private void IniciarIngreso()
         {
+            this.tarea = Task.Run(() => {
 
+                while (!cancellation.IsCancellationRequested)
+                {
+                    NotificarNuevoIngreso();
+
+                    EsperarProximoIngreso();
+
+                    this.cantPedidosFinalizados++;
+
+                    DataBaseManager.GuardarTicket(this.nombre,this.menu);
+                }
+            });   
         }
 
         private void NotificarNuevoIngreso()
         {
+            if (OnIngreso != null)
+            {
+                this.menu = new T();
 
+                this.menu.IniciarPreparacion();
+
+                this.OnIngreso.Invoke(this.menu);
+            }
         }
+
         private void EsperarProximoIngreso()
         {
-            int tiempoEspera = 0;
+            if(this.OnDemora != null )
+            {
+                int segundosTranscurridos = 0;
 
+                while (!cancellation.Token.IsCancellationRequested && !menu.Estado)
+                {
+                    this.OnDemora.Invoke(segundosTranscurridos);
 
-            this.demoraPreparacionTotal += tiempoEspera;
+                    Thread.Sleep(1000);
 
+                    segundosTranscurridos++;
+                }
+
+                this.demoraPreparacionTotal += segundosTranscurridos;
+            }
         }
     }
 }

@@ -31,10 +31,9 @@ namespace Entidades.Modelos
         public string Ticket => $"{this}\nTotal a pagar:{this.costo}";
 
 
-
         private void AgregarIngredientes()
         {
-      
+             this.ingredientes = this.random.IngredientesAleatorios();
         }
 
         private string MostrarDatos()
@@ -48,11 +47,14 @@ namespace Entidades.Modelos
         }
 
 
-
         public override string ToString() => this.MostrarDatos();
+
 
         public void FinalizarPreparacion(string cocinero)
         {
+
+            this.ingredientes.CalcularCostoIngrediente(Hamburguesa.costoBase);
+            this.estado = !this.estado;
 
         }
 
@@ -60,8 +62,10 @@ namespace Entidades.Modelos
         {
             if (!this.estado)
             {
-
+                DataBaseManager.GetImagenComida($"Hamburguesa_{this.random.Next(1, 9)}");
+                AgregarIngredientes();
             }
+
         }
     }
 }
