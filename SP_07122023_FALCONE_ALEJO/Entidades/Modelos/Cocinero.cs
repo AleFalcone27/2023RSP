@@ -6,28 +6,33 @@ using Entidades.Interfaces;
 
 namespace Entidades.Modelos
 {
-
     public delegate void DelegadoDemoraAtencion(double demora);
-    public delegate void DelegadoNuevoIngreso(IComestible menu);
-    
+    public delegate void DelegadoPedidoEnCurso(IComestible menu);
 
     public class Cocinero<T> where T : IComestible, new()
     {
-        private int cantPedidosFinalizados;
-        private string nombre;
-        private double demoraPreparacionTotal;
+
         private CancellationTokenSource cancellation;
-        private Task tarea;
-        private T menu;
+        private int cantPedidosFinalizados;
+        private double demoraPreparacionTotal;
+        private Mozo<T> mozo;    
+        private string nombre;
+        private Queue<T> pedidos;
+        private T PedidoEnPrepaacion;
         public event DelegadoDemoraAtencion OnDemora;
-        public event DelegadoNuevoIngreso OnIngreso;
+        public event DelegadoPedidoEnCurso OnPedido;
+        private Task tarea;
 
         public Cocinero(string nombre)
         {
             this.nombre = nombre;
+            this.mozo = new Mozo<T>();
+            this.pedidos = new Queue<T>();
+            
         }
 
-        //No hacer nada
+        public Queue<T> Pedidos { get { return this.pedidos; } }
+        
         public bool HabilitarCocina
         {
             get
@@ -40,12 +45,13 @@ namespace Entidades.Modelos
             {
                 if (value && !this.HabilitarCocina)
                 {
-                    this.cancellation = new CancellationTokenSource();
-                    this.IniciarIngreso();
+                    this.mozo.EmpezarATrabajar = true;
+                    this.EmpezarACocinar();
                 }
                 else
                 {
                     this.cancellation.Cancel();
+                    this.mozo.EmpezarATrabajar = false;
                 }
             }
         }
@@ -56,33 +62,32 @@ namespace Entidades.Modelos
         public int CantPedidosFinalizados { get => cantPedidosFinalizados; }
 
 
-        private void IniciarIngreso()
+        private void TomarNuevoPedido(T menu)
+        {
+            if (this.OnPedido != null)
+            {
+                this.pedidos.Enqueue(menu); 
+            }
+        }
+
+        private void EmpezarACocinar()
         {
             this.tarea = Task.Run(() => {
 
                 while (!cancellation.IsCancellationRequested)
                 {
-                    NotificarNuevoIngreso();
+                    if (this.pedidos.Count > 0)
+                    {
+                        this.PedidoEnPrepaacion = this.pedidos.Dequeue();
 
-                    EsperarProximoIngreso();
+                        this.EsperarProximoIngreso();
 
-                    this.cantPedidosFinalizados++;
+                        this.cantPedidosFinalizados++;
 
-                    DataBaseManager.GuardarTicket(this.nombre,this.menu);
+                        DataBaseManager.GuardarTicket(this.nombre,this.PedidoEnPrepaacion);
+                    }
                 }
             });   
-        }
-
-        private void NotificarNuevoIngreso()
-        {
-            if (OnIngreso != null)
-            {
-                this.menu = new T();
-
-                this.menu.IniciarPreparacion();
-
-                this.OnIngreso.Invoke(this.menu);
-            }
         }
 
         private void EsperarProximoIngreso()
@@ -103,5 +108,9 @@ namespace Entidades.Modelos
                 this.demoraPreparacionTotal += segundosTranscurridos;
             }
         }
+
+
+
     }
+
 }
